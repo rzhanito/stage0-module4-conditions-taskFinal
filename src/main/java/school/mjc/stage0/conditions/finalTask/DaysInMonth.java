@@ -11,7 +11,7 @@ public class DaysInMonth {
             }
             case 4, 6, 9, 11 -> System.out.println("30");
             case 1, 3, 5, 7, 10, 12 -> System.out.println("31");
-            default -> System.out.println("Invalid date");
+            default -> System.out.println("invalid date");
         }
     }
 }
